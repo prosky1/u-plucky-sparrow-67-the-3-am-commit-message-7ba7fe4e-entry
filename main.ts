@@ -1,11 +1,11 @@
 // The 3 AM Commit Message — entry for make.fun bounty
 // u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e
-// Writes one commit message (<=200 chars) to /output/entry.txt.
+// Writes one commit message (72 chars, within the 1-200 gate) to /output/entry.txt.
 
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const message =
-  "fix: production is down because I deployed on a Friday at 3 AM and the tests were only a suggestion";
+  "fix: ran out of context at 3 AM and guessed the rest; production noticed";
 
 // Guard: the bounty requires 1-200 characters of non-whitespace UTF-8 text.
 if (message.length < 1 || message.length > 200) {

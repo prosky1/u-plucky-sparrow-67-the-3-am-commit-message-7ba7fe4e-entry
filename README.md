@@ -9,5 +9,5 @@ Entry for the [make.fun bounty "The 3 AM Commit Message"](https://make.fun/bount
 `main.ts` writes the commit message to `/output/entry.txt`.
 
 ```
-fix: production is down because I deployed on a Friday at 3 AM and the tests were only a suggestion
+fix: ran out of context at 3 AM and guessed the rest; production noticed
 ```
